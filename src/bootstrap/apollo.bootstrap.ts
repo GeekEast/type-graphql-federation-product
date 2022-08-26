@@ -3,7 +3,7 @@ import { ApolloServer } from "apollo-server-express"
 import Container from "typedi"
 
 import { GRAPHQL_DEBUG, GRAPHQL_INTROSPECTION } from "../enum"
-import { ProjectResolver } from "../modules/project/resolver/project.resolver"
+import { ProjectResolver } from "../modules/project/project.resolver"
 import { buildFederatedSchema } from "../utils/federation/federation.util"
 import { ErrorFilter } from "../utils/middlewares/error.filter"
 
